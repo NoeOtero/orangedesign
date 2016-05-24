@@ -1,0 +1,110 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	height: 600px;
+}
+nav {
+	background-color: #FE7E00;
+	border-bottom: 5px solid #E17102;
+	height: 125px;
+}
+nav h4 {
+	margin: 0;
+	position: relative;
+	top: 40px;
+	left: 20px;
+	color: #ffffff;
+	font-size: 30px;
+}
+nav h4 span {
+	font-size: 30px;
+}
+.home {
+	text-align: right;
+	position: relative;
+	right: 50px;
+}
+.home ul li{
+	display: inline-block;
+}
+.home ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 5px;
+}
+.home ul li a:hover{
+	color: yellow;
+}
+.searchbox {
+	float: right;
+	position: relative;
+	right: 50px;
+	top: 40px;
+}
+.searchbox input {
+	background-color: #EEEDEC;
+	border: 2px solid #d9d9d9;
+    font-size: 10px;
+    display: block;
+    padding: 10px;
+}
+.searchbox i{
+	position: absolute;
+	left: 125px;
+	top: 10px;
+}
+/*message section*/
+.message p{
+	position: relative;
+	float: right;
+	bottom: 150px;
+	right: 150px;
+	font-size: 30px;
+	padding: 20px;
+}
+.oranges{
+	position: relative;
+	top: 125px;
+	left: 150px;
+}
+.message span{
+	font-weight: bold;
+}
+.message h2 span{
+	font-weight: bold;
+}
+.web {
+	color: #7ACCC8;
+}
+.design {
+	color: #7ACCC8;
+}
+/*quote and case study buttons + blue banner*/
+footer{
+	background-color: #7ACCC8;
+	position: relative;
+	height: 100px;
+	top: 130px;
+}
+.selectbuttons button:first-child {
+	background-color: #FE7E00;
+	position: relative;
+	float: right;
+	bottom: 70px;
+	padding:10px;
+	border: none;
+	color: white;
+}
+.selectbuttons button:last-child {
+	background-color: #7ACCC8;
+	position: relative;
+	float: right;
+	left: 300px;
+	bottom: 70px;
+	padding: 10px;
+	border: none;
+	color: white;
+}
+.selectbuttons button:hover{
+	color: black;
+}
